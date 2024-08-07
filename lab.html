@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff; /* Pink color for nav links */
+        }
+        body{
+            background-color: #1f1f1f;
+        }
+        .navbar-dark .navbar-nav .nav-link:hover,
+        .navbar-dark .navbar-nav .nav-link:focus {
+            color: #ff1493; /* Darker pink color on hover/focus */
+        }
+
+        .navbar-dark .navbar-brand {
+            color: #ffffff; /* Pink color for brand */
+        }
+
+        .navbar-dark .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 105, 180, 0.7)' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
+        .form-control {
+            background-color: #fff; /* Dark background for search input */
+            color: #ffffff; /* White text color for search input */
+            border: 1px solid #ffff; /* Pink border */
+        }
+
+        .btn-outline-success {
+            color: #ffff; /* Pink text color for button */
+            border-color: #ffff; /* Pink border color for button */
+        }
+
+        .btn-outline-success:hover {
+            background-color: #ff69b4; /* Pink background color on hover */
+            border-color: #ff69b4; /* Pink border color on hover */
+        }
+        .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+    }
+    .footer a {
+      color: white;
+    }
+    .footer a:hover {
+      color: #d1d1d1;
+    }
+    .footer .social-icons i {
+      font-size: 24px;
+      margin: 0 10px;
+      transition: color 0.2s;
+    }
+    .logo {
+      max-width: 100px; /* adjust this as needed */
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./images/136485361_21434afd-13d2-43a6-af52-bea86e105ef8.svg" alt="" style="width: 40px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./lab.html">Lab</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="background-conatiner">
+
+
+    </div>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/n3RLH_lmjNE?si=7knugiv6ZcpikCkR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LpYcp60iSaM?si=laBfDBlVPPq91Nh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+    <footer class="footer text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Follow us on</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="mr-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="mr-2"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="mr-2"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" class="mr-2"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <p class="mt-3">&copy; 2024 Your Company Name. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
